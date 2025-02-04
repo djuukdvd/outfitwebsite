@@ -19,16 +19,16 @@ function verander(pagina, zonnig) {
         if (seizoen == "herfst") {
             if (zonnig == "1") {
                 fotosEl.innerHTML = `
-                <img src="outjes/herfst/herfst zonnig.jpg" alt="" class="seizoen">
-                <img src="outjes/herfst/Herfst zonning 2.jpg" alt="" class="seizoen">
-                <img src="outjes/herfst/Herfst zonnig vrouw.jpg" alt="" class="seizoen">
-                <img src="outjes/herfst/Herfst zonning vrouw 2.jpg" alt="" class="seizoen">`
+                <img src="outfits/herfst/herfst zonnig.jpg" alt="" class="seizoen">
+                <img src="outfits/herfst/Herfst zonning 2.jpg" alt="" class="seizoen">
+                <img src="outfits/herfst/Herfst zonnig vrouw.jpg" alt="" class="seizoen">
+                <img src="outfits/herfst/Herfst zonning vrouw 2.jpg" alt="" class="seizoen">`
             } else {
                 fotosEl.innerHTML = `
-                <img src="outjes/herfst/Herfst regen.jpg" alt="" class="seizoen">
-                <img src="outjes/herfst/Herfst regen2.jpg" alt="" class="seizoen">
-                <img src="outjes/herfst/Herfst regen vrouw.jpg" alt="" class="seizoen">
-                <img src="outjes/herfst/Herfst regen vrouw 2.jpg" alt="" class="seizoen">`
+                <img src="outfits/herfst/Herfst regen.jpg" alt="" class="seizoen">
+                <img src="outfits/herfst/Herfst regen2.jpg" alt="" class="seizoen">
+                <img src="outfits/herfst/Herfst regen vrouw.jpg" alt="" class="seizoen">
+                <img src="outfits/herfst/Herfst regen vrouw 2.jpg" alt="" class="seizoen">`
             }
             let terugEl = document.getElementById("terug")
             terugEl.setAttribute("onclick", "verander(1, 'herfst')")
@@ -36,16 +36,16 @@ function verander(pagina, zonnig) {
         } else if (seizoen == "winter") {
             if (zonnig == "1") {
                 fotosEl.innerHTML = `
-                <img src="outjes/winter/outfit 1 man zonnig .jpeg" alt="" class="seizoen">
-                <img src="outjes/winter/outfit 2 man zonnig.jpg" alt="" class="seizoen">
-                <img src="outjes/winter/vrouw outfit 1 zonnig.jpg" alt="" class="seizoen">
-                <img src="outjes/winter/vrouw outfit 2 zonnig.jpeg" alt="" class="seizoen">`
+                <img src="outfits/winter/outfit 1 man zonnig .jpeg" alt="" class="seizoen">
+                <img src="outfits/winter/outfit 2 man zonnig.jpg" alt="" class="seizoen">
+                <img src="outfits/winter/vrouw outfit 1 zonnig.jpg" alt="" class="seizoen">
+                <img src="outfits/winter/vrouw outfit 2 zonnig.jpeg" alt="" class="seizoen">`
             } else {
                 fotosEl.innerHTML = `
-                <img src="outjes/winter/regen outfit 1 man.jpg" alt="" class="seizoen">
-                <img src="outjes/winter/regen outfit 2 man.jpg" alt="" class="seizoen">
-                <img src="outjes/winter/vrouw outfit 1 regen .jpg" alt="" class="seizoen">
-                <img src="outjes/winter/vrouw outfit 2 regen.jpg" alt="" class="seizoen">`
+                <img src="outfits/winter/regen outfit 1 man.jpg" alt="" class="seizoen">
+                <img src="outfits/winter/regen outfit 2 man.jpg" alt="" class="seizoen">
+                <img src="outfits/winter/vrouw outfit 1 regen .jpg" alt="" class="seizoen">
+                <img src="outfits/winter/vrouw outfit 2 regen.jpg" alt="" class="seizoen">`
             }
             let terugEl = document.getElementById("terug")
             terugEl.setAttribute("onclick", "verander(1, 'winter')")
@@ -53,16 +53,16 @@ function verander(pagina, zonnig) {
         } else if (seizoen == "zomer") {
             if (zonnig == "1") {
                 fotosEl.innerHTML = `
-                <img src="outjes/zomer/IMG_0229.jpg" alt="" class="seizoen">
-                <img src="outjes/zomer/IMG_0228.jpg" alt="" class="seizoen">
-                <img src="outjes/zomer/IMG_0237.jpg" alt="" class="seizoen">
-                <img src="outjes/zomer/IMG_0235.jpg" alt="" class="seizoen">`
+                <img src="outfits/zomer/IMG_0229.jpg" alt="" class="seizoen">
+                <img src="outfits/zomer/IMG_0228.jpg" alt="" class="seizoen">
+                <img src="outfits/zomer/IMG_0237.jpg" alt="" class="seizoen">
+                <img src="outfits/zomer/IMG_0235.jpg" alt="" class="seizoen">`
             } else {
                 fotosEl.innerHTML = `
-                <img src="outjes/zomer/IMG_0231.jpg" alt="" class="seizoen">
-                <img src="outjes/zomer/IMG_0288.jpg" alt="" class="seizoen">
-                <img src="outjes/zomer/IMG_0234.jpg" alt="" class="seizoen">
-                <img src="outjes/zomer/IMG_0233.jpg" alt="" class="seizoen">`
+                <img src="outfits/zomer/IMG_0231.jpg" alt="" class="seizoen">
+                <img src="outfits/zomer/IMG_0288.jpg" alt="" class="seizoen">
+                <img src="outfits/zomer/IMG_0234.jpg" alt="" class="seizoen">
+                <img src="outfits/zomer/IMG_0233.jpg" alt="" class="seizoen">`
             }
             let terugEl = document.getElementById("terug")
             terugEl.setAttribute("onclick", "verander(1, 'zomer')")
@@ -70,16 +70,16 @@ function verander(pagina, zonnig) {
         } else if (seizoen == "lente") {
             if (zonnig == "1") {
                 fotosEl.innerHTML = `
-                <img src="outjes/lente/zonnig_man1.jpg" alt="" class="seizoen">
-                <img src="outjes/lente/zonnig_man2.jpg" alt="" class="seizoen">
-                <img src="outjes/lente/zonnig_vrouw1.jpg" alt="" class="seizoen">
-                <img src="outjes/lente/zonnig_vrouw2.jpg" alt="" class="seizoen">`
+                <img src="outfits/lente/zonnig_man1.jpg" alt="" class="seizoen">
+                <img src="outfits/lente/zonnig_man2.jpg" alt="" class="seizoen">
+                <img src="outfits/lente/zonnig_vrouw1.jpg" alt="" class="seizoen">
+                <img src="outfits/lente/zonnig_vrouw2.jpg" alt="" class="seizoen">`
             } else {
                 fotosEl.innerHTML = `
-                <img src="outjes/lente/regen_man1.jpg" alt="" class="seizoen">
-                <img src="outjes/lente/regen_man2.jpg" alt="" class="seizoen">
-                <img src="outjes/lente/regen_vrouw1.jpg" alt="" class="seizoen">
-                <img src="outjes/lente/regen_vrouw2.jpg" alt="" class="seizoen">`
+                <img src="outfits/lente/regen_man1.jpg" alt="" class="seizoen">
+                <img src="outfits/lente/regen_man2.jpg" alt="" class="seizoen">
+                <img src="outfits/lente/regen_vrouw1.jpg" alt="" class="seizoen">
+                <img src="outfits/lente/regen_vrouw2.jpg" alt="" class="seizoen">`
             }
             let terugEl = document.getElementById("terug")
             terugEl.setAttribute("onclick", "verander(1, 'lente')")

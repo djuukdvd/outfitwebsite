@@ -87,6 +87,17 @@
     margin-top: 20px;
 }
 
+.about {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.about p {
+    font-size: 20px;
+    text-align: center;        
+    margin-top: auto;
+}
+
 .navbar .left-container {
     display: flex;
     align-items: center;
